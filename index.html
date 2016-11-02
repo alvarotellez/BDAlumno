@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+</head>
+<body>
+    <form action="seleccion.php" method="post">
+        <h4>Introduzca su nombre: </h4>
+        <input type="text" name="nombreUsuario" required/></br>
+        <h4>Seleccione que accion quiere realizar: </h4>
+        <select name="seleccion" required>
+            <option value="0" name="seleccion">-Elige una opción-</option>
+            <option value="1" name="seleccion">Seleccionar alumnos</option>
+            <option value="2" name="seleccion">Insertar un nuevo alumno</option>
+        </select></br>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>
