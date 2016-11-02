@@ -15,7 +15,7 @@ $sql_query = "SELECT ". \Constantes_DB\tabla1::DNI . " , "
     . \Constantes_DB\tabla1::EDAD . " "
     ." FROM ". \Constantes_DB\tabla1::TABLE_NAME ."WHERE". \Constantes_DB\tabla1::DNI ."=". $dniAlumno;
 
-//Comentario de prueba
+
 $result = $mysqli->query($sql_query);
 echo '<html>';
 echo '<body>';
@@ -38,5 +38,6 @@ if ($result->num_rows > 0) {
 }else{
     echo "No hay resultados";
 }
+//Mi nombre es alvaro tellez
 echo '</body>';
 echo '</html>';
