@@ -38,6 +38,6 @@ if ($result->num_rows > 0) {
 }else{
     echo "No hay resultados";
 }
-//Mi nombre es alvaro tellez
+
 echo '</body>';
 echo '</html>';
